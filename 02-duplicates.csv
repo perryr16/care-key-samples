@@ -1,0 +1,5 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+1001,MEM001,2025-01-01,2025-12-31,100,Smith John,1234567890,City Hospital,123 Main St,,Boston,MA,02101,City Hospital Billing,9876543210,123456789,C,2025-12-01T10:00:00Z,1
+1002,MEM002,2025-01-01,2025-12-31,200,Jones Sarah,2345678901,Metro Clinic,456 Oak Ave,Suite 100,New York,NY,10001,Metro Medical Group,8765432109,234567890,C,2025-12-01T10:01:00Z,1
+1003,MEM003,2025-01-01,2025-12-31,300|310,Brown Michael,3456789012,Regional Medical Center,789 Pine Rd,,Chicago,IL,60601,Regional Billing LLC,7654321098,345678901,C,2025-12-01T10:02:00Z,1
+1004,MEM004,2025-01-01,2025-12-31,400,Williams David,4567890123,Westside Medical,890 Elm St,,Denver,CO,80202,Westside Billing Corp,6543210987,456789012,C,2025-12-01T10:03:00Z,1
