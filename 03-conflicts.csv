@@ -1,0 +1,4 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+1001,MEM001,2025-01-01,2025-12-31,100,Smith John,1234567890,City Hospital,123 Main St,,Boston,MA,02101,City Hospital Billing,9876543210,123456789,C,2025-12-01T10:00:00Z,1
+1001,MEM001X,2025-01-01,2025-12-31,100,Smith John,1234567890,City Hospital,123 Main St,,Boston,MA,02101,City Hospital Billing,9876543210,123456789,C,2025-12-01T10:00:00Z,1
+1001,MEM001_UPDATED,2025-01-01,2025-12-31,100,Smith John,1234567890,City Hospital,123 Main St,,Boston,MA,02101,City Hospital Billing,9876543210,123456789,U,2025-12-01T10:00:00Z,2

@@ -1,0 +1,10 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+6001,MEM6001-V3,2025-01-01,2025-12-31,300,Third Update Arrives First,4141414141,OOO Facility 1,2100 First St,,Denver,CO,80201,OOO Billing 1,4242424242,232323232,U,2025-12-06T08:02:00Z,3
+6001,MEM6001-V1,2025-01-01,2025-12-31,100,Original Create,4141414141,OOO Facility 1,2100 First St,,Denver,CO,80201,OOO Billing 1,4242424242,232323232,C,2025-12-06T08:00:00Z,1
+6001,MEM6001-V2,2025-01-01,2025-12-31,200,Second Update,4141414141,OOO Facility 1,2100 First St,,Denver,CO,80201,OOO Billing 1,4242424242,232323232,U,2025-12-06T08:01:00Z,2
+6002,MEM6002,2025-01-01,2025-12-31,400,Delete Arrives Before Create,4343434343,OOO Facility 2,2200 Second Ave,,Boulder,CO,80301,OOO Billing 2,4444444444,242424242,D,2025-12-06T08:05:00Z,2
+6002,MEM6002,2025-01-01,2025-12-31,400,Original Create Arrives Late,4343434343,OOO Facility 2,2200 Second Ave,,Boulder,CO,80301,OOO Billing 2,4444444444,242424242,C,2025-12-06T08:03:00Z,1
+6003,MEM6003-V2,2025-01-01,2025-12-31,500,Update Before Create,4545454545,OOO Facility 3,2300 Third Blvd,,Colorado Springs,CO,80901,OOO Billing 3,4646464646,252525252,U,2025-12-06T08:07:00Z,2
+6003,MEM6003-V1,2025-01-01,2025-12-31,500,Create Arrives After,4545454545,OOO Facility 3,2300 Third Blvd,,Colorado Springs,CO,80901,OOO Billing 3,4646464646,252525252,C,2025-12-06T08:06:00Z,1
+6004,MEM6004-LATER,2025-01-01,2025-12-31,650,Later Timestamp Appears First,4747474747,OOO Facility 4,2400 Fourth Rd,,Pueblo,CO,81001,OOO Billing 4,4848484848,262626262,C,2025-12-06T08:11:00Z,1
+6004,MEM6004,2025-01-01,2025-12-31,600,Earlier Timestamp Appears Last,4747474747,OOO Facility 4,2400 Fourth Rd,,Pueblo,CO,81001,OOO Billing 4,4848484848,262626262,C,2025-12-06T08:10:00Z,1

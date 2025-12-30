@@ -1,0 +1,8 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+,MEM3001,2025-01-01,2025-12-31,100,Missing ID,5555555555,Test Facility,300 Third Blvd,,Phoenix,AZ,85001,Test Billing,6666666666,333333333,C,2025-12-03T10:00:00Z,1
+3002,MEM3002,2025-01-01,2025-12-31,200,Invalid Op,7777777777,Test Facility 2,400 Fourth St,,Austin,TX,78701,Test Billing 2,8888888888,444444444,X,2025-12-03T10:01:00Z,1
+3003,MEM3003,2025-01-01,2025-12-31,300,Bad Date Format,9999999999,Test Facility 3,500 Fifth Ave,,Miami,FL,33101,Test Billing 3,1010101010,555555555,C,12/03/2025 10:02:00,1
+3004,MEM3004,2025-01-01,2025-12-31,400,Missing Version,1212121212,Test Facility 4,600 Sixth Rd,,Atlanta,GA,30301,Test Billing 4,1313131313,666666666,C,2025-12-03T10:03:00Z,
+3005,MEM3005,2025-01-01,2025-12-31,500,No Op Field,1414141414,Test Facility 5,700 Seventh Ln,,Dallas,TX,75201,Test Billing 5,1515151515,777777777,,2025-12-03T10:04:00Z,1
+3006,MEM3006,2025-01-01,2025-12-31,600,Valid Record,1616161616,Test Facility 6,800 Eighth Way,,Houston,TX,77001,Test Billing 6,1717171717,888888888,C,2025-12-03T10:05:00Z,1
+3007,,,,,,,,,,,,,,,,C,2025-12-03T10:06:00Z,1

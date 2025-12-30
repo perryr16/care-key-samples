@@ -1,0 +1,5 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+1001,MEM001-UPDATED,2025-01-01,2025-12-31,150,Smith John Jr,1234567890,City Hospital,123 Main St,,Boston,MA,02101,City Hospital Billing,9876543210,123456789,U,2025-12-02T14:30:00Z,3
+1002,MEM002,2025-01-01,2025-12-31,200,Jones Sarah,2345678901,Metro Clinic,456 Oak Ave,Suite 100,New York,NY,10001,Metro Medical Group,8765432109,234567890,D,2025-12-02T14:31:00Z,2
+1003,MEM003,2025-01-01,2025-12-31,300,,,,,,,,,,,,U,2025-12-02T14:33:00Z,2
+1004,MEM004,2025-01-01,2025-12-31,400,New Provider,4567890123,New Facility,999 Elm St,,Seattle,WA,98101,New Billing Inc,6543210987,456789012,C,2025-12-02T14:32:00Z,1

@@ -1,0 +1,8 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+4001,MEM4001,2025-01-01,2025-12-31,100,Duplicate Test,1818181818,Dup Facility,900 Ninth Pl,,San Francisco,CA,94101,Dup Billing,1919191919,999999999,C,2025-12-04T08:00:00Z,1
+4001,MEM4001,2025-01-01,2025-12-31,100,Duplicate Test,1818181818,Dup Facility,900 Ninth Pl,,San Francisco,CA,94101,Dup Billing,1919191919,999999999,C,2025-12-04T08:00:00Z,1
+4002,MEM4002,2025-01-01,2025-12-31,200,Same ID Different Version,2020202020,Version Facility,1000 Tenth St,,Los Angeles,CA,90001,Version Billing,2121212121,101010101,C,2025-12-04T08:01:00Z,1
+4002,MEM4002-V2,2025-01-01,2025-12-31,250,Same ID Different Version,2020202020,Version Facility,1000 Tenth St,,Los Angeles,CA,90001,Version Billing,2121212121,101010101,U,2025-12-04T08:02:00Z,2
+4002,MEM4002-V2,2025-01-01,2025-12-31,250,Same ID Different Version,2020202020,Version Facility,1000 Tenth St,,Los Angeles,CA,90001,Version Billing,2121212121,101010101,U,2025-12-04T08:02:00Z,2
+4003,MEM4003,2025-01-01,2025-12-31,300,Create Then Duplicate Create,2222222222,Dup Create Facility,1100 Eleventh Ave,,San Diego,CA,92101,Dup Create Billing,2323232323,121212121,C,2025-12-04T08:03:00Z,1
+4003,MEM4003,2025-01-01,2025-12-31,300,Create Then Duplicate Create,2222222222,Dup Create Facility,1100 Eleventh Ave,,San Diego,CA,92101,Dup Create Billing,2323232323,121212121,C,2025-12-04T08:04:00Z,1

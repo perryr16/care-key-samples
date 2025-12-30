@@ -1,0 +1,10 @@
+id,member_id,effective_from_date,effective_through_date,benefit_codes,provider_name,type_1_npi,facility_name,facility_street_1,facility_street_2,facility_city,facility_state,facility_zip,billing_name,type_2_npi,tin,op,changed_at,version
+5001,MEM5001,2025-01-01,2025-12-31,,Empty Benefit Code,2424242424,Edge Facility 1,1200 Main St,,Seattle,WA,98101,Edge Billing 1,2525252525,131313131,C,2025-12-05T08:00:00Z,1
+5002,,2025-01-01,2025-12-31,100,Empty Member ID,2626262626,Edge Facility 2,1300 Oak Ave,,Portland,OR,97201,Edge Billing 2,2727272727,141414141,C,2025-12-05T08:01:00Z,1
+5003,MEM5003,,,200,Empty Dates,2828282828,Edge Facility 3,1400 Pine Rd,,Boise,ID,83701,Edge Billing 3,2929292929,151515151,C,2025-12-05T08:02:00Z,1
+5004,MEM5004,2025-01-01,2025-12-31,300,,,1500 Elm Blvd,,Salt Lake City,UT,84101,Edge Billing 4,3030303030,161616161,C,2025-12-05T08:03:00Z,1
+5005,MEM5005,2025-01-01,2025-12-31,400|500|600|700|800,Multi Benefit Codes,3131313131,Edge Facility 5,1600 Maple Dr,,Phoenix,AZ,85001,Edge Billing 5,3232323232,171717171,C,2025-12-05T08:04:00Z,1
+5006,MEM-SPECIAL-CHARS-!@#,2025-01-01,2025-12-31,900,O'Brien & Associates,3333333333,Facility "Quotes" Test,1700 Cedar Ln,,Las Vegas,NV,89101,Billing, LLC,3434343434,C,2025-12-05T08:05:00Z,1
+5007,MEM5007,2025-01-01,2025-12-31,1000,Very Long Provider Name That Exceeds Normal Length To Test Field Size Handling In The System,3535353535,Very Long Facility Name That Also Exceeds Normal Length To Test Field Size Handling,1800 Birch Way,,Reno,NV,89501,Very Long Billing Name,3636363636,191919191,C,2025-12-05T08:06:00Z,1
+5008,MEM5008,2025-01-01,2025-12-31,100,Delete Non-Existent,3737373737,Edge Facility 8,1900 Spruce Ct,,Carson City,NV,89701,Edge Billing 8,3838383838,202020202,D,2025-12-05T08:07:00Z,1
+5009,MEM5009,2025-01-01,2025-12-31,200,Update Non-Existent,3939393939,Edge Facility 9,2000 Willow Pl,,Spokane,WA,99201,Edge Billing 9,4040404040,212121212,U,2025-12-05T08:08:00Z,1
