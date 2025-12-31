@@ -5,7 +5,7 @@ In the GCP logs explorer its highly recommended you set the Summary fields (pref
 
 <img width="603" height="77" alt="Screenshot 2025-12-30 at 7 58 44 PM" src="https://github.com/user-attachments/assets/93ac04bb-fe35-4121-9f90-a5b564302a52" />
 
-Look for the care-key-processor `jsonPayload.msg` "CSV: Batch processed successfully
+Processing results are displayed in the care-key-processor `jsonPayload.msg` "CSV: Batch processed successfully
 " or "CSV: Batch processed with rejected rows"
 
 ## Checking results
