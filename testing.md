@@ -11,7 +11,7 @@ After each run, check the DB for results
 `SELECT * FROM care_keys ORDER BY row_id;`
 
 ### 01. Happy Path - Creates
-- File: `01-happy-path-creates.csv`
+- File: `01-happy.csv`
 - Purpose: Basic create operations
 - Expected: All 3 records created (1001, 1002, 1003)
 
