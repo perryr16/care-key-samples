@@ -6,7 +6,7 @@ Highly recommended you set the Summary fields (preferences > manage summary fiel
 Look for the care-key-processor `jsonPayload.msg` "CSV: Batch processed successfully
 " or "CSV: Batch processed with rejected rows"
 
-
+## Checking results
 After each run, check the DB for results 
 `SELECT * FROM care_keys ORDER BY row_id;`
 
