@@ -10,6 +10,27 @@ Look for the care-key-processor `jsonPayload.msg` "CSV: Batch processed successf
 After each run, check the DB for results 
 `SELECT * FROM care_keys ORDER BY row_id;`
 
+## Running tests
+Replace the final url segment with the file name (01-happy.csv -> 02-duplicates.csv)
+```bash
+curl -X POST "{{ PRODUCTION URL }}" \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer {{ INSERT BEARER }}" \
+  -d '{
+    "version":"0",
+    ...
+    "detail":{
+      "artifacts":[
+        {
+          "usage":"input",
+          "url":"https://raw.githubusercontent.com/perryr16/care-key-samples/refs/heads/main/01-happy.csv"
+        }
+      ]
+    }
+  }'
+```
+
+
 ### 01. Happy Path - Creates
 - File: `01-happy.csv`
 - Purpose: Basic create operations
